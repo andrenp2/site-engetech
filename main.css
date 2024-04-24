@@ -1,0 +1,140 @@
+header a {
+    text-decoration: none;
+    color: rgb(99, 87, 87);
+}
+
+.col-12.d-flex.justify-content-between {
+    border-bottom: 0.5px solid rgb(221, 221, 218);
+}
+
+#espaco-preto {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    align-items: center
+}
+
+header img {
+    max-width: 50px;
+    margin-right: 1em;
+}
+
+#carousel-eng img{
+    max-height: 540px;
+}
+
+.titulo-enge {
+    font-weight: bolder;
+    color: black;
+}
+
+.titulo-tech {
+    font-weight: bold;
+    color: rgb(16, 183, 16);
+}
+
+.footer-info li {
+    list-style: none;
+}
+
+.footer-info {
+    border-bottom: 2px solid gray;
+    color: black;
+}
+
+footer {
+    background-color: rgba(34, 35, 31, 0.827);
+}
+
+.corpo-footer {
+    border-bottom: 2px solid gray;
+}
+
+.corpo-footer h5{
+    font-weight: bold;
+    color: #ddd1d1;
+    margin-bottom: 2em;
+}
+
+.corpo-footer li {
+    list-style: none;
+    color: #ddd1d1;
+}
+
+.corpo-footer ul {
+    padding-left: 0;
+    margin-bottom: 4em;
+}
+
+.end-footer {
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    
+
+    .carousel-inner {
+        height: 14em;
+    }
+
+    #mini-icons {
+        display: none;
+    }
+
+    .col-12.d-flex.justify-content-between {
+        padding-bottom: 1em;
+    }
+
+    .linha-cards.row {
+        width: 100%;
+        display: block;
+    }
+
+    .linha-cards .col-3 {
+        padding-left: 2em;
+        padding-bottom: 2em;
+        width: 100%;
+    }
+
+    .corpo-footer, .footer-info {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .col-12.d-flex.justify-content-between {
+        padding-bottom: 1em;
+    }
+    
+    .carousel-inner {
+        height: 14em;
+    }
+
+    #mini-icons {
+        display: none;
+    }
+
+    .linha-cards.row {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,48%);
+    }
+
+    .linha-cards .col-3 {
+        margin-left: 2em;
+        padding-bottom: 3em;
+
+        width: 100%;
+    }
+
+    #texto-conteudos {
+        margin-left: 2em;
+    }
+}

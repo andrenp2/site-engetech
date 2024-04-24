@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engetech</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div>
+        <header class="navbar navbar-expand-lg sticky-top">
+            <div class="container d-block">
+                <div class="row w-100">
+                    <div class="col-12 d-flex justify-content-between">
+                        <div class="d-inline-flex">
+                            <img class="mb-1" src="./images/logo.jpeg" alt=""> 
+                            <h1 class="navbar-brand align-self-center ms-2 pb-0"><span class="titulo-enge">Enge</span><span class="titulo-tech">Tech</span></h1>
+                        </div>
+                        <div id="mini-icons" class="align-self-center">
+                            <a href="#blog">
+                                Blog |
+                            </a>
+                            <a class="ms-1" href="#carrinho">
+                                <i class="bi bi-cart3"></i>
+                                <!-- <img src="https://via.placeholder.com/30x30" alt=""> -->
+                            </a>
+                        </div>
+                        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-12 pt-2">
+                        <nav class="navbar-collapse collapse justify-content-between" id="menu-navegacao">
+                            <div class="dropdown">
+                                <div class="btn-group me-4">
+                                    <a id="dropdown-produtos" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="#">
+                                        Produtos
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <h2 class="dropdown-header">Digital Construction Management</h2>
+                                        <a class="dropdown-item" href="#">Produto 1</a>
+                                        <a class="dropdown-item" href="#">Produto 2</a>
+                                        <a class="dropdown-item" href="#">Produto 3</a>
+                                        <a class="dropdown-item" href="#">Produto 4</a>
+                                        <a class="dropdown-item" href="#">Produto 5</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group me-4">
+                                    <a id="dropdown-produtos" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="#">
+                                        Conhecimento
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Eventos</a>
+                                        <a class="dropdown-item" href="#">Cursos e especializações</a>
+                                        <a class="dropdown-item" href="#">Base de conhecimento</a>
+                                        <a class="dropdown-item" href="#">Ecossistema</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group me-4">
+                                    <a id="dropdown-produtos" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" href="#">
+                                        Downloads
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Software</a>
+                                        <a class="dropdown-item" href="#">Conteúdos gratuitos</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group me-4">
+                                    <a id="dropdown-produtos" class="dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                                        Suporte
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Conversar com um atendente</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group me-4">
+                                    <a id="dropdown-produtos" class="dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                                        A EngeTech
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Institucional</a>
+                                        <a class="dropdown-item" href="#">Contato</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-dark">
+                                    Fale com um consultor
+                                </button>
+                                <button class="btn btn-success">
+                                    COMPRE AGORA
+                                </button>
+                            </div>
+                        </nav>
+    
+                    </div>
+                </div>
+            </div>
+        </header>        
+    </div>
+    
+    <div id="espaco-preto" class="mt-2 mb-0">
+        <p class="pt-2 pb-2 align-self-center">A maior empresa de software da América Latina</p>
+    </div>
+
+    <!-- carousel -->
+    <div class="container">
+        <div id="container-carousel" class="w-100 mt-0 ps-3 pe-3 pt-1">
+            <div id="carousel-eng" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                 <div class="carousel-inner">
+                     <div data-bs-interval="2000" class="carousel-item active">
+                         <img class="w-100" src="./images/carousel/capaEng.jpg" alt="">
+                     </div>
+                     <div data-bs-interval="2000" class="carousel-item">
+                         <img class="w-100" src="./images/carousel/capaEng2.jpg" alt="">
+                     </div>
+                     <div data-bs-interval="2000" class="carousel-item">
+                         <img class="w-100" src="./images/carousel/capa3.jpg" alt="">
+                     </div>
+                 </div>
+                 <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#carousel-eng" class="active" data-bs-slide-to="0"></button>
+                     <button type="button" data-bs-target="#carousel-eng" data-bs-slide-to="1"></button>
+                     <button type="button" data-bs-target="#carousel-eng" data-bs-slide-to="2"></button>
+                 </div>
+                 <button data-bs-target="#carousel-eng" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                     <span class="carousel-control-prev-icon"></span>
+                 </button>
+                 <button data-bs-target="#carousel-eng" data-bs-slide="next" class="carousel-control-next" type="button">
+                     <span class="carousel-control-next-icon"></span>
+                 </button>
+            </div>
+         </div>
+    </div>
+
+    <!-- cards  -->
+    <div class="container pb-5">
+        <div class="row">
+            <div id="texto-conteudos" class="col-12 mb-5">
+                <h3 class="pt-5">// Nossos conteúdos gratuitos</h2>
+                <span class="fs-4">Melhore continuamente sua carreira com a <span class="titulo-enge">Enge</span></span><span class="fs-4 titulo-tech">Tech</span>
+            </div>
+        </div>
+        <div class="linha-cards row">
+            <div class="col-3">
+                <article class="card">
+                    <img class="rounded-top" src="./images/cards/card1.png" alt="">
+                    <div class="card-body rounded">
+                        <h4 class="card-title">Escrever aqui</h4>
+                        <p class="card-text">
+                            Wharever is all i ever want you.
+                        </p>
+                    </div>
+                    <div class="container">
+                        <button class="btn btn-outline">Saiba mais</button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-3">
+                <article class="card">
+                    <img class="rounded-top" src="./images/cards/card3.png" alt="">
+                    <div class="card-body rounded">
+                        <h4 class="card-title">Escrever aqui</h4>
+                        <p class="card-text">
+                            Wharever is all i ever want you.
+                        </p>
+                    </div>
+                    <div class="container">
+                        <button class="btn btn-outline">Saiba mais</button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-3">
+                <article class="card">
+                    <img class="rounded-top" src="./images/cards/card2.png" alt="">
+                    <div class="card-body rounded">
+                        <h4 class="card-title">Escrever aqui</h4>
+                        <p class="card-text">
+                            Wharever is all i ever want you.
+                        </p>
+                    </div>
+                    <div class="container">
+                        <button class="btn btn-outline">Saiba mais</button>
+                    </div>
+                </article>
+            </div>
+            <div class="col-3">
+                <article class="card">
+                    <img class="rounded-top" src="./images/cards/card3.png" alt="">
+                    <div class="card-body rounded">
+                        <h4 class="card-title">Escrever aqui</h4>
+                        <p class="card-text">
+                            Wharever is all i ever want you.
+                        </p>
+                    </div>
+                    <div class="container">
+                        <button class="btn btn-outline">Saiba mais</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <!-- rodapé -->
+    <section class="section-footer">
+        <footer>
+            <div class="footer-info">
+                <div class="row">
+                    <div class="col-4">
+                        <ul id="social-medias" class="d-flex mt-4">
+                            <li class="fs-3">
+                                <i class="bi bi-instagram ms-5"></i>
+                            </li>
+                            <li class="fs-3">
+                                <i class="bi bi-facebook ms-5 me-5"></i>
+                            </li>
+                            <li class="fs-3">
+                                <i class="bi bi-youtube me-5"></i>
+                            </li>
+                            <li class="fs-3">
+                                <i class="bi bi-linkedin"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center mt-3">
+                        <span class="mt-2 titulo-enge fs-4">Enge</span></span><span class="mt-2 fs-4 titulo-tech">Tech</span>
+                    </div>
+                    <div class="col-4 d-flex justify-content-center">
+                        <span class="mt-4 fw-bold fs-5">Métodos de pagamentos aceitos</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="corpo-footer">
+                <div class="row mt-4 ms-3">
+                    <div class="col-2">
+                        <h5>Solções para</h5>
+                        <ul>
+                            <li>Projetistas</li>
+                            <li>Empresas</li>
+                            <li>Setor público</li>
+                            <li>Instituições de ensino</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <h5>Produtos</h5>
+                        <ul>
+                            <li>EngeTech Estruturas</li>
+                            <li>EngeTech Instalações</li>
+                            <li>EngeTech Workflow</li>
+                            <li>Novidades</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <h5>Aprenda</h5>
+                        <ul>
+                            <li>Blog</li>
+                            <li>Conteúdos gratuitos</li>
+                            <li>Eventos</li>
+                            <li>Cursos</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <h5>A EngeTech</h5>
+                        <ul>
+                            <li>Institucional</li>
+                            <li>EngeTech Education</li>
+                            <li>Carreiras</li>
+                            <li>Política Comercial</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <h5>Contato</h5>
+                        <ul>
+                            <li>Fale conosco</li>
+                            <li>Ouvidoria</li>
+                        </ul>
+                    </div>
+                    <div class="col-2">
+                        <h5>Downloads</h5>
+                        <ul>
+                            <li>Softwares</li>
+                            <li>Portal dos Fabricantes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="end-footer p-4 ali">
+                <p>
+                    &copy; 2024 - Desenvolvido por <a href="https://github.com/andrenp2">André Nuernberg Pavan.</a>
+                </p>
+            </div>
+
+        </footer>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
